@@ -1,0 +1,15 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress js %}
+<script type="text/javascript" src="{% static 'node_modules/jquery/dist/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'node_modules/bootstrap/dist/js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'node_modules/angular-material/angular-material.js' %}"></script>
+<script type="text/javascript" src="{% static 'node_modules/underscore/underscore.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'node_modules/angular/angular.js' %}"></script>
+<script type="text/javascript" src="{% static 'node_modules/angular-ui-router/release/angular-ui-router.js' %}"></script>
+<script type="text/javascript" src="{% static 'node_modules/angular-cookies/angular-cookies.js' %}"></script>
+
+<script type="text/javascript" src="{% static 'javascript/students_terminal.js' %}"></script>
+{% endcompress %}

@@ -1,0 +1,9 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress css %}
+<link rel="stylesheet" type="text/css" href="{% static 'node_modules/bootstrap/dist/css/bootstrap.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'node_modules/angular-material/angular-material.min.css' %}" />
+
+<link rel="stylesheet" type="text/css" href="{% static 'stylesheets/styles.css' %}" />
+{% endcompress %}

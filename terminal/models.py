@@ -33,6 +33,7 @@ class Task(models.Model):
     NEW_TASK = "new"
     TASK_DONE = "done"
     IN_PROCESS = "in process"
+    TASK_DROPPED = "task dropped"
 
     task_name = models.CharField(max_length=20)
     task_desc = models.CharField(max_length=200)
